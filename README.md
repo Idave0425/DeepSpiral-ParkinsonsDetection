@@ -49,10 +49,24 @@ pip install tensorflow keras numpy matplotlib
 
 ## Project Structure
 
-- `data/` – Dataset of spiral drawings
-- `MobileNetV2_Analysis.ipynb` – Training and evaluation notebook for MobileNetV2
-- `ResNet50_Analysis.ipynb` – Training and evaluation notebook for ResNet50
-- `utils/` – Helper scripts for preprocessing and augmentation
+- `Automated_Detection_of_Parkinsons_Disease_Patterns_in_Spiral_Drawings_Using_Convolutional_Neural_Networks.pdf` — full research paper
+- `create_images.ipynb` — generate spiral images from coordinate data
+
+- `MobileNetV2 - Training.py` — train/evaluate MobileNetV2
+- `Training-Resnet50.py` — train/evaluate ResNet50
+- `Best_Model_Training_and_Saving.py` — save best model + post-training eval
+
+- `Create_Test_Image_Folders.py` — create test image directory structure
+- `Create_Validation_Image_Folders.py` — create validation image directory structure
+
+- `Multiline-plots.py` — plots/metrics for MobileNetV2
+- `Multiline-plots - Resnet50.py` — plots/metrics for ResNet50
+
+- `Test-Images-For-Binary-Classification (MobileNetV2)/` — sample outputs (MobileNetV2)
+- `Test-Images-For-Binary-Classification (ResNet50)/` — sample outputs (ResNet50)
+
+- `LICENSE` — license
+- `README.md` — this file
 
 ---
 
